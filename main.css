@@ -1,0 +1,168 @@
+/* GENERAL STYLING*/
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.around {
+  justify-content: space-around;
+}
+.align-center {
+  align-content: center;
+}
+h1 {
+  color: white;
+  font-size: 3em;
+  margin: 20px auto;
+}
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  padding: 100px 20px 0;
+  letter-spacing: 2px;
+}
+.button {
+  color: white;
+  border: 1px solid white;
+  display: block;
+  width: 75px;
+  border-radius: 10%;
+}
+.button-blue {
+  color: white;
+  border: 1px solid #0099ff;
+  display: block;
+  width: 150px;
+  border-radius: 3%;
+  background-color: #0099ff;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+img {
+  width: 80%;
+}
+/* HEADER Y NAV*/
+header {
+  background-image: url("https://www.ironhack.com/assets/header-home/background-shape-dark.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 75px;
+  text-align: center;
+}
+nav a {
+  color: white;
+}
+header p {
+  color: white;
+  font-weight: 600;
+  line-height: 1.3em;
+  font-size: 1.3em;
+}
+p {
+  font-size: 1.1em;
+}
+/* ASIDES*/
+aside {
+  margin: 50px;
+}
+aside p {
+  color: grey;
+  font-size: 0.9em;
+  font-weight: 100px;
+  text-align: center;
+}
+.greyscale {
+  filter: grayscale(1);
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+aside img {
+  width: 5%;
+}
+hr {
+  margin: 10px 0;
+}
+.second-aside h2,
+.second-aside p {
+  text-transform: uppercase;
+  text-align: center;
+}
+.second-aside h2 {
+  font-size: 3em;
+}
+/* SECTION 1*/
+.mini-me {
+  width: 10%;
+}
+/* SECTION 2*/
+.section-2 {
+  padding-bottom: 100px;
+}
+.grid {
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 100px;
+  margin-top: 20px;
+}
+.section-2 article {
+  width: 50%;
+  position: relative;
+  /*padding-left: 50px;*/
+}
+.section-2 img {
+  width: 10%;
+  position: absolute;
+  left: 0;
+}
+.section-2 h3,
+.section-2 p {
+  padding-left: 50px;
+}
+
+/* SECTION 3*/
+.sec-3 {
+  padding-left: 50px;
+  background-color: rgba(255, 235, 205, 0.6);
+  padding-bottom: 100px;
+}
+.sec-3 h3 {
+  font-size: 2.2em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+.programs {
+  align-items: center;
+  justify-content: space-evenly;
+}
+.button-long {
+  background-color: white;
+  color: #32c3ff;
+  border: 1px solid #32c3ff;
+  display: block;
+  width: 250px;
+  padding: 20px 30px;
+}
+.sec-3 p {
+  padding-bottom: 50px;
+}
+.sec-3 a {
+}
+.sec-3 a:hover {
+  text-decoration: none;
+}
+.sec-3.d1:hover {
+  background-color: white;
+}
+.sec-3.sec-3.d2:hover {
+  background-color: white;
+}
+.sec-3 button:hover {
+  background-color: #32c3ff;
+  color: white;
+}
+
+.blue-text {
+  color: blue;
+}
