@@ -136,6 +136,10 @@ hr {
   align-items: center;
   justify-content: space-evenly;
 }
+.d2,
+.d1 {
+  padding: 40px;
+}
 .button-long {
   background-color: white;
   color: #32c3ff;
@@ -152,10 +156,10 @@ hr {
 .sec-3 a:hover {
   text-decoration: none;
 }
-.sec-3.d1:hover {
+.sec-3 .d1:hover {
   background-color: white;
 }
-.sec-3.sec-3.d2:hover {
+.sec-3 .d2:hover {
   background-color: white;
 }
 .sec-3 button:hover {
